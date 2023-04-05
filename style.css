@@ -1,0 +1,53 @@
+*{
+    margin: 0.8rem;
+}.head{
+    font-family: 'Roboto Slab', serif;
+    font-size:1.4rem;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+.image{
+    float: right;
+    width: 25rem;
+    height: 20rem;
+    margin-left: 2rem;
+}
+@media only screen and (max-width:500px){
+    .image{
+        float:none;
+        margin: 2rem 1rem;
+    }
+    *{
+        margin:0.2rem;
+    }  
+}
+@media only screen and (max-width:600px){
+        .image{
+            float:none;
+            margin: 2rem 1rem;
+        }
+        *{
+            margin: 0.4rem;
+        }   
+}
+@media only screen and (max-width:720px){
+    .image{
+        float: none;
+        margin: 2rem 2rem;
+    }   
+}
+@media only screen and (max-width:768px){
+    .image{
+        width:20rem;
+        margin: 2rem 2rem;
+    }   
+}
+@media only screen and (max-width:992px){
+    .image{
+        width:25rem;
+        margin: 2rem 2rem;
+    }   
+}
+
